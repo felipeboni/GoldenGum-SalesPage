@@ -1,0 +1,893 @@
+@media only screen and (orientation: portrait) {
+    * {
+        font-size: large !important;
+    }
+  }
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/assets/fonts/LeagueSpartan-Bold.otf') format('woff2'),
+         url('/assets/fonts/LeagueSpartan-Bold.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+section {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+hr {
+    border: none;
+    height: 3px !important;
+    /* Set the hr color */
+    color: #000; /* old IE */
+    background-color: #000; /* Modern Browsers */
+    opacity: 1 !important;
+    border-radius: 999px;
+}
+
+/* Start::Section headline */
+
+.navbar-brand {
+    width: 200px;
+}
+
+#s-headline {
+    background-image: url("/assets/img/head.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 1250px;
+}
+
+#s-headline .container-headline {
+    min-height: 585px;
+    margin-bottom: 100px;
+}
+
+
+
+#s-headline .container-headline > .row {
+    background-color: rgba(0, 0, 0, 0.67);
+}
+
+#s-headline h1.headline {
+    font-family: 'Bree Serif', serif;
+    max-width: 35ch;
+    text-align: center;
+    padding: 70px 0;
+}
+
+/* End::Section headline */
+/* Start::Section presentation */
+
+#s-presentation {
+    z-index: 2;
+    position: relative;
+    margin-top: -469px;
+    padding-bottom: 100px;
+}
+
+#s-presentation h1.headline {
+    font-size: 60pt;
+    line-height: 1.3em;
+    max-width: 8ch;
+    text-align: center;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+}
+
+#s-presentation .headline-block {
+    background-color: #f29f8d;
+    max-width: 730px;
+    position: relative;
+}
+
+#s-presentation .sticker {
+    position: absolute;
+    right: -282px;
+    bottom: -90px;
+}
+
+
+/* End::Section presentation */
+/* Start::Section arguments */
+
+#s-arguments h1.headline {
+    font-size: 40pt;
+    font-family: 'Bree serif';
+    max-width: 39ch;
+    line-height: 1.3em;
+}
+
+#s-arguments h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    max-width: 39ch;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+#s-arguments ul.argument-list {
+    list-style: none;
+}
+
+#s-arguments ul.argument-list li {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 2.4em;
+}
+
+#s-arguments ul.argument-list li::before {
+    content: "\25A0";
+    color: #f27052;
+    font-weight: bolder;
+    display: inline-block;
+    width: .8em;
+    margin-left: 0em;
+    font-size: 6rem;
+    transform: translateY(11px);
+}
+
+/* fCarousel Styles */
+
+#fCarousel {
+    padding-right: 7rem !important;
+    padding-left: 7rem !important;
+}
+
+#fCarousel .carousel-inner {
+    width: 75%;
+}
+
+#fCarousel .carousel-control-prev-icon {
+    background-image: url("/assets/img/caroussel/arrow.png");
+}
+
+#fCarousel .carousel-control-next-icon {
+    background-image: url("/assets/img/caroussel/arrow.png");
+    transform: scaleX(-1);
+}
+
+#fCarousel .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 6rem !important;
+    height: 10rem !important;
+}
+
+#fCarousel .carousel-control-next, .carousel-control-prev {
+    opacity: 100% !important;
+}
+
+#fCarousel .carousel-control-next {
+    margin-right: -80px;
+}
+
+#fCarousel .carousel-control-prev {
+    margin-left: -80px;
+}
+
+
+/* End::Section arguments */
+/* Start::Section video */
+
+#s-video > .container {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+#s-video h1.headline {
+    font-size: 60pt;
+    line-height: 1.4em;
+    max-width: 10ch;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+}
+
+#s-video h2.subtitle {
+    font-size: 35pt;
+    font-family: 'Bree serif';
+    max-width: 39ch;
+    position: relative;
+}
+
+#s-video h2.subtitle::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 3px;
+    background: #000;
+    top: 30px;
+    left: 400px;
+}
+
+#s-video .video-container {
+    max-width: 90%;
+    background-color: #fff0d2;
+}
+
+#s-video .video-container::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 450px;
+    background-color: #f7bcac;
+    left: 0;
+    margin-top: 270px;
+    z-index: -1;
+}
+
+/* End::Section video */
+/* Start::Section results */
+
+#s-results .custom-button {
+    font-family: 'League Spartan';
+    background-color: #f27052;
+    border: solid 10px #f29f8d;
+    border-radius: 0;
+    font-size: 50pt;
+    color: #fff;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+#s-results > .container {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+#s-results h1.headline {
+    font-size: 60pt;
+    line-height: 1.4em;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    text-align: center;
+}
+
+#s-results h2.subtitle {
+    font-size: 35pt;
+    font-family: 'Bree serif';
+    position: relative;
+    letter-spacing: 4px;
+    line-height: 1.4em;
+}
+
+/* End::Section results */
+/* Start::Section howToUse */
+
+#s-howToUse .custom-button {
+    font-family: 'League Spartan';
+    background-color: #f27052;
+    border: solid 10px #f29f8d;
+    border-radius: 0;
+    font-size: 50pt;
+    color: #fff;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+#s-howToUse > .container {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+#s-howToUse h1.headline {
+    font-size: 60pt;
+    line-height: 1.4em;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    text-align: center;
+}
+
+#s-howToUse h2.subtitle {
+    font-size: 35pt;
+    font-family: 'Bree serif';
+    position: relative;
+    letter-spacing: 4px;
+    line-height: 1.4em;
+}
+
+#s-howToUse .photo-htu {
+    width: 100%;
+    height: 1100px;
+    position: relative;
+}
+
+#s-howToUse .photo-htu::before {
+    content: '';
+    position: absolute;
+    width: 77%;
+    height: 90%;
+    background-color: #f18070;
+    right: -25%;
+    top: -70px;
+    z-index: -1;
+}
+
+#s-howToUse .photo-htu::after {
+    content: url('/assets/img/nkXCVKJa_71056.png');
+    position: absolute;
+    left: 37px;
+    bottom: -120px;
+    z-index: 0;
+}
+
+#s-howToUse .htu-list {
+    padding: 0 5rem !important;
+}
+
+#s-howToUse .list__number {
+    font-family: 'League Spartan';
+    font-size: 124pt;
+}
+
+
+#s-howToUse .list__item {
+    margin-top: -110px;
+}
+
+#s-howToUse .list__text {
+    font-family: 'Bree Serif';
+    font-size: 35pt;
+    color: #fff;
+}
+
+#s-howToUse .list__item1 .list__item {
+    background: #f27052;
+}
+
+#s-howToUse .list__item2 .list__item {
+    background: #f7bcac;
+}
+
+#s-howToUse .list__item3 .list__item {
+    background: #fc9bb3;
+}
+
+
+/* End::Section howToUse */
+/* Start::Section quickResults */
+
+#s-quickResults > .container {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+#s-quickResults h1.headline {
+    font-size: 60pt;
+    line-height: 1.4em;
+    max-width: 10ch;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+}
+
+#s-quickResults h2.subtitle {
+    font-size: 35pt;
+    font-family: 'Bree serif';
+    max-width: 39ch;
+    position: relative;
+}
+
+#s-quickResults h2.subtitle::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 3px;
+    background: #000;
+    top: 30px;
+    left: 670px;
+}
+
+#s-quickResults .video-container {
+    max-width: 90%;
+    background-color: #fff0d2;
+    position: relative;
+}
+
+#s-quickResults .video-container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f7bcac;
+    left: -50%;
+    top: -50%;
+    z-index: -1;
+}
+
+/* End::Section quickResults */
+/* Start::Section training */
+
+#s-training h1.headline {
+    font-size: 40pt;
+    font-family: 'Bree serif';
+    max-width: 39ch;
+    line-height: 1.3em;
+    color: #f27052;
+}
+
+#s-training h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    max-width: 39ch;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+#s-training ul.argument-list {
+    list-style: none;
+}
+
+#s-training ul.argument-list li {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 2.4em;
+}
+
+#s-training ul.argument-list li::before {
+    content: "\25A0";
+    color: #f27052;
+    font-weight: bolder;
+    display: inline-block;
+    width: .8em;
+    margin-left: 0em;
+    font-size: 6rem;
+    transform: translateY(11px);
+}
+
+#s-training .custom-button {
+    font-family: 'League Spartan';
+    background-color: #f27052;
+    border: solid 10px #f29f8d;
+    border-radius: 0;
+    font-size: 50pt;
+    color: #fff;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+/* End::Section training */
+/* Start::Section explanation */
+
+#s-explanation {
+    background-color: #ffe9df;
+}
+
+#s-explanation > .container {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+#s-explanation h1.headline {
+    font-size: 60pt;
+    line-height: 1.4em;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    text-align: center;
+    color: #f27052;
+}
+
+#s-explanation h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Bree serif';
+    line-height: 1.3em;
+    color: #f27052;
+    letter-spacing: 3px;
+}
+
+#s-explanation span.text {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    line-height: 1.3em;
+    color: #f27052;
+    max-width: 27ch;
+    display: block;
+}
+
+/* End::Section explanation */
+/* Start::Section meaning */
+
+#s-meaning .row {
+    position: relative;
+}
+
+#s-meaning .lines::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 3px;
+    background: #000;
+    top: 60px;
+    left: -770px;
+}
+
+#s-meaning .lines::after {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 3px;
+    background: #000;
+    bottom: 30px;
+    left: 770px;
+}
+
+/* End::Section meaning */
+/* Start::Section politics */
+
+#s-politics h1.headline {
+    font-size: 60pt;
+    line-height: 1.4em;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    text-align: center;
+}
+
+#s-politics h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Bree serif';
+    line-height: 1.3em;
+    letter-spacing: 3px;
+}
+
+#s-politics .row {
+    position: relative;
+}
+
+#s-politics .img-box::after {
+    content: url('/assets/img/nkXCVKJa_71056.png');
+    position: absolute;
+    right: 18%;
+    bottom: 25%;
+    z-index: 0;
+}
+
+#s-politics .img-box::before {
+    content: '';
+    position: absolute;
+    width: 100vw;
+    height: 500px;
+    background-color: #f7bcac;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+/* End::Section politics */
+/* Start::Section politicsList */
+
+#s-politicsList {
+    background: #f7bcac;
+    padding-bottom: 10rem;
+}
+
+#s-politicsList h1.headline {
+    font-size: 58pt;
+    line-height: 1.4em;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    text-align: center;
+}
+
+#s-politicsList h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Bree serif';
+    line-height: 1.3em;
+    letter-spacing: 3px;
+}
+
+#s-politicsList ul.argument-list {
+    list-style: none;
+    padding-left: 6rem !important;
+}
+
+#s-politicsList ul.argument-list li {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    color: #f27052;
+}
+
+#s-politicsList ul.argument-list li::before {
+    content: "\25A0";
+    color: #f27052;
+    font-weight: bolder;
+    display: inline-block;
+    width: .8em;
+    margin-left: -0.8em;
+    font-size: 6rem;
+    transform: translate(-20px, 11px);
+    line-height: 0;
+}
+
+#s-politicsList ul.argument-list-2 {
+    list-style: none;
+    padding-left: 6rem !important;
+}
+
+#s-politicsList ul.argument-list-2 li {
+    font-size: 40pt;
+    font-family: 'Bree Serif';
+    font-weight: 400;
+    color: #000;
+}
+
+#s-politicsList ul.argument-list-2 li::before {
+    content: "\25A0";
+    color: #f27052;
+    font-weight: bolder;
+    display: inline-block;
+    width: .8em;
+    margin-left: -0.8em;
+    font-size: 6rem;
+    transform: translate(-20px, 11px);
+    line-height: 0;
+}
+
+#s-politicsList .list-box {
+    padding: 0 200px !important;
+}
+
+/* End::Section politicsList */
+/* Start::Section buy */
+
+#s-buy h1.headline {
+    font-size: 40pt;
+    font-family: 'Bree serif';
+    max-width: 39ch;
+    line-height: 1.3em;
+    color: #f27052;
+}
+
+#s-buy h2.subtitle {
+    font-size: 35pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #f27052;
+}
+
+#s-buy h3.title {
+    font-size: 25pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #000;
+    letter-spacing: 4px;
+}
+
+#s-buy ul.argument-list {
+    list-style: none;
+}
+
+#s-buy ul.argument-list li {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 2.4em;
+}
+
+#s-buy ul.argument-list li::before {
+    content: "\25A0";
+    color: #f27052;
+    font-weight: bolder;
+    display: inline-block;
+    width: .8em;
+    margin-left: 0em;
+    font-size: 6rem;
+    transform: translateY(11px);
+}
+
+#s-buy .custom-button {
+    font-family: 'League Spartan';
+    background-color: #f27052;
+    border: solid 10px #f29f8d;
+    border-radius: 0;
+    font-size: 50pt;
+    color: #fff;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+hr {
+    height: 3px;
+}
+
+/* sCarousel Styles */
+
+#sCarousel {
+    padding-right: 7rem !important;
+    padding-left: 7rem !important;
+}
+
+#sCarousel .carousel-inner {
+    width: 75%;
+}
+
+#sCarousel .carousel-control-prev-icon {
+    background-image: url("/assets/img/caroussel/arrow.png");
+}
+
+#sCarousel .carousel-control-next-icon {
+    background-image: url("/assets/img/caroussel/arrow.png");
+    transform: scaleX(-1);
+}
+
+#sCarousel .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 6rem !important;
+    height: 10rem !important;
+}
+
+#sCarousel .carousel-control-next, .carousel-control-prev {
+    opacity: 100% !important;
+}
+
+#sCarousel .carousel-control-next {
+    margin-right: -80px;
+}
+
+#sCarousel .carousel-control-prev {
+    margin-left: -80px;
+}
+
+/* End::Section buy */
+/* Start::Section product */
+
+#s-product > .container {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+#s-product h1.headline {
+    font-size: 65pt;
+    line-height: 1.4em;
+    max-width: 6ch;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    color: #f18070;
+}
+
+#s-product .video-container {
+    max-width: 90%;
+    background-color: #fff0d2;
+    position: relative;
+}
+
+#s-product .video-container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 132%;
+    background-color: #fff0d2;
+    left: -50%;
+    bottom: -40%;
+    z-index: -1;
+}
+
+/* End::Section product */
+/* Start::Section goldenvibes */
+
+#s-goldenvibes {
+    background-color: #f7bcac;
+}
+
+#s-goldenvibes > .container {
+    padding-right: 6rem !important;
+    padding-left: 6rem !important;
+}
+
+#s-goldenvibes h1.headline {
+    font-size: 76pt;
+    line-height: 1.4em;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    text-align: center;
+    color: #fff;
+    max-width: 10ch;
+}
+
+#s-goldenvibes h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Bree serif';
+    line-height: 1.3em;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+/* End::Section goldenvibes */
+/* Start::Section guides */
+
+#s-guides .row-bg {
+    margin-top: -200px;
+    background: #f18070;
+}
+
+#s-guides h1.headline {
+    font-size: 40pt;
+    font-family: 'Bree serif';
+    max-width: 27ch;
+    line-height: 1.3em;
+    color: #fff;
+}
+
+#s-guides h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Bree serif';
+    line-height: 1.3em;
+    color: #fff;
+    letter-spacing: 3px;
+}
+
+/* End::Section guides */
+/* Start::Section questions */
+
+#s-questions h1.headline {
+    font-size: 76pt;
+    line-height: 1.4em;
+    padding: 70px 0;
+    font-family: 'League Spartan';
+    text-align: center;
+    color: #f18070;
+}
+
+#s-questions h2.subtitle {
+    font-size: 30pt;
+    font-family: 'Bree serif';
+    line-height: 1.3em;
+    letter-spacing: 3px;
+    color: #f18070;
+}
+
+#s-questions .question-item {
+    font-size: 30pt;
+    font-family: 'Montserrat';
+    line-height: 1.3em;
+    color: #f18070;
+    text-decoration: none;
+}
+
+#s-questions .question-text {
+    font-size: 25pt;
+    font-family: 'Montserrat';
+    line-height: 1.8em;
+    color: #000;
+    text-decoration: none;
+}
+
+/* End::Section questions */
+/* Start::Section footer */
+
+footer {
+    background-color: #ffe9df;
+}
+
+footer .footer-logo {
+    margin: 10rem auto !important;
+}
+
+footer .footer-link {
+    font-size: 40pt;
+    font-family: 'Montserrat';
+    line-height: 1.3em;
+    color: #f18070 !important;
+    text-decoration: none;
+}
+
+footer .copyright {
+    font-size: 25pt;
+    font-family: 'Montserrat';
+    line-height: 1.3em;
+    color: #f18070 !important;
+}
+
+footer hr {
+background: #f27052 !important;
+}
+
+
+/* End::Section footer */
