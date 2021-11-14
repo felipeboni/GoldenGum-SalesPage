@@ -6,8 +6,8 @@
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('/assets/fonts/LeagueSpartan-Bold.otf') format('woff2'),
-         url('/assets/fonts/LeagueSpartan-Bold.otf') format('woff');
+    src: url('assets/fonts/LeagueSpartan-Bold.otf') format('woff2'),
+         url('assets/fonts/LeagueSpartan-Bold.otf') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -38,7 +38,7 @@ hr {
 }
 
 #s-headline {
-    background-image: url("/assets/img/head.png");
+    background-image: url("assets/img/head.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -147,11 +147,11 @@ hr {
 }
 
 #fCarousel .carousel-control-prev-icon {
-    background-image: url("/assets/img/caroussel/arrow.png");
+    background-image: url("assets/img/caroussel/arrow.png");
 }
 
 #fCarousel .carousel-control-next-icon {
-    background-image: url("/assets/img/caroussel/arrow.png");
+    background-image: url("assets/img/caroussel/arrow.png");
     transform: scaleX(-1);
 }
 
@@ -310,7 +310,7 @@ hr {
 }
 
 #s-howToUse .photo-htu::after {
-    content: url('/assets/img/nkXCVKJa_71056.png');
+    content: url('assets/img/nkXCVKJa_71056.png');
     position: absolute;
     left: 37px;
     bottom: -120px;
@@ -540,7 +540,7 @@ hr {
 }
 
 #s-politics .img-box::after {
-    content: url('/assets/img/nkXCVKJa_71056.png');
+    content: url('assets/img/nkXCVKJa_71056.png');
     position: absolute;
     right: 18%;
     bottom: 25%;
@@ -710,11 +710,11 @@ hr {
 }
 
 #sCarousel .carousel-control-prev-icon {
-    background-image: url("/assets/img/caroussel/arrow.png");
+    background-image: url("assets/img/caroussel/arrow.png");
 }
 
 #sCarousel .carousel-control-next-icon {
-    background-image: url("/assets/img/caroussel/arrow.png");
+    background-image: url("assets/img/caroussel/arrow.png");
     transform: scaleX(-1);
 }
 
