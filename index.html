@@ -15,6 +15,7 @@
       href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap"
       rel="stylesheet"
     />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,600&display=swap"
       rel="stylesheet"
@@ -32,7 +33,7 @@
   </head>
   <body>
     <section id="s-headline" style="z-index: 1">
-      <nav class="navbar navbar-expand-lg">
+      <nav class="navbar px-5">
         <div class="container-fluid">
           <a class="navbar-brand ms-5 pt-5" href="#">
             <svg
@@ -202,6 +203,45 @@
               />
             </svg>
           </a>
+
+          <a class="navbar-button me-5 mb-4" href="#">
+            <img src="assets/img/navbar.png" alt="" />
+          </a>
+
+          <div class="collapse navbar-collapse justify-content-end align-items-start" id="nav">
+            <ul class="nav navbar-nav justify-content-end flex-column">
+
+              <li class="nav-item text-end mb-4" role="presentation">
+                <a class="nav-link close-nav" href="javascript:void(0)">✕</a>
+              </li>
+
+              <li class="nav-item text-end" role="presentation">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+
+              <li class="nav-item text-end" role="presentation">
+                <a class="nav-link" href="#s-results">Resultados</a>
+              </li>
+
+              <li class="nav-item text-end" role="presentation">
+                <a class="nav-link" href="#s-buy">Como comprar</a>
+              </li>
+
+              <li class="nav-item text-end" role="presentation">
+                <a class="nav-link" href="#s-questions">Perguntas frequentes</a>
+              </li>
+
+              <li class="nav-item text-end" role="presentation">
+                <a class="nav-link" href="#s-politics">Missão</a>
+              </li>
+
+              <li class="nav-item text-end" role="presentation">
+                <a class="nav-link" href="#footer">Fale conosco</a>
+              </li>
+
+            </ul>
+          </div>
+
         </div>
       </nav>
 
@@ -340,7 +380,7 @@
             <h2 class="subtitle text-dark">DÁ O PLAY AQUI:</h2>
           </div>
         </div>
-        <div class="row pt-5 mt-5">
+        <div class="row py-5 my-5">
           <div class="col">
             <div class="video-container mx-auto">
               <img
@@ -351,19 +391,19 @@
             </div>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section id="s-results">
-      <div class="container mx-auto mt-5">
         <div class="row pt-5 mt-5 pb-4 justify-content-center">
           <div class="col-8 mt-5 pt-5">
-            <button type="button" class="btn custom-button mx-2">
+            <button type="button" class="btn custom-button mx-2 mt-5">
               eu quero <3
             </button>
           </div>
         </div>
-        <div class="row pt-5 mt-5 pb-4">
+      </div>
+    </section>
+
+    <section id="s-results">
+      <div class="container mx-auto">
+        <div class="row pb-4">
           <div class="col mt-5 pt-5">
             <h1 class="headline py-0 text-dark">resultados naturais</h1>
           </div>
@@ -774,291 +814,351 @@
         <div class="blank-space py-5 my-5"></div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#firstQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="firstQuestion"
-            >
-                não é igual chiclete?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#firstQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="firstQuestion"
+          >
+            não é igual chiclete?
+          </a>
+          <hr />
           <div class="collapse my-5" id="firstQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#secondQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="secondQuestion"
-            >
-                não machuca os dentes?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#secondQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="secondQuestion"
+          >
+            não machuca os dentes?
+          </a>
+          <hr />
           <div class="collapse my-5" id="secondQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#thirdQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="thirdQuestion"
-            >
-                não prejudica a estrutura óssea?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#thirdQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="thirdQuestion"
+          >
+            não prejudica a estrutura óssea?
+          </a>
+          <hr />
           <div class="collapse my-5" id="thirdQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#fourthQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="fourthQuestion"
-            >
-                não é igual chiclete?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#fourthQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="fourthQuestion"
+          >
+            não é igual chiclete?
+          </a>
+          <hr />
           <div class="collapse my-5" id="fourthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#fifthQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="fifthQuestion"
-            >
-                não é tóxico?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#fifthQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="fifthQuestion"
+          >
+            não é tóxico?
+          </a>
+          <hr />
           <div class="collapse my-5" id="fifthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#sixthQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="sixthQuestion"
-            >
-                não deixa o rosto masculino? 
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#sixthQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="sixthQuestion"
+          >
+            não deixa o rosto masculino?
+          </a>
+          <hr />
           <div class="collapse my-5" id="sixthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#seventhQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="seventhQuestion"
-            >
-                quantos minutos por dia?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#seventhQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="seventhQuestion"
+          >
+            quantos minutos por dia?
+          </a>
+          <hr />
           <div class="collapse my-5" id="seventhQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#eighthQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="eighthQuestion"
-            >
-                tem que fazer todo dia?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#eighthQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="eighthQuestion"
+          >
+            tem que fazer todo dia?
+          </a>
+          <hr />
           <div class="collapse my-5" id="eighthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-          
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#ninthQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="ninthQuestion"
-            >
-                depois que eu parar de usar, o resultado se mantém?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#ninthQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="ninthQuestion"
+          >
+            depois que eu parar de usar, o resultado se mantém?
+          </a>
+          <hr />
           <div class="collapse my-5" id="ninthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
         </div>
 
         <div class="row mb-5 pb-5">
-            <a
-              class="question-item my-4"
-              data-bs-toggle="collapse"
-              href="#tenthQuestion"
-              role="button"
-              aria-expanded="false"
-              aria-controls="tenthQuestion"
-            >
-                dura quanto tempo?
-            </a>
-            <hr>
+          <a
+            class="question-item my-4"
+            data-bs-toggle="collapse"
+            href="#tenthQuestion"
+            role="button"
+            aria-expanded="false"
+            aria-controls="tenthQuestion"
+          >
+            dura quanto tempo?
+          </a>
+          <hr />
           <div class="collapse my-5" id="tenthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae cumque ipsa alias aperiam delectus minima perspiciatis, illum eius inventore temporibus libero similique magni hic nostrum tempore quos unde eligendi quidem officia nobis rem enim aliquid. Ullam perspiciatis quia facilis exercitationem expedita laudantium sint itaque non consequuntur, ratione earum doloribus dolorum.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
+              inventore temporibus libero similique magni hic nostrum tempore
+              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
+              perspiciatis quia facilis exercitationem expedita laudantium sint
+              itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
         </div>
 
         <div class="row pt-5 my-5 pb-5">
-            <div class="col mt-5 pt-5">
-                <h2 class="subtitle text-center">
-                    CHAMA NO WHATS, QUE A GENTE<br>
-                    RESPONDE TAMBÉM :)
-                </h2>
-                <div class="row pt-5 mt-5">
-                    <div class="col mt-3">
-                      <div class="video-container text-center">
-                          <a href="">
-                            <img
-                            src="assets/img/whatsapp.png"
-                            class="mx-auto"
-                            alt=""
-                            style="width: 20%"
-                            />
-                          </a>
-                      </div>
-                    </div>
+          <div class="col mt-5 pt-5">
+            <h2 class="subtitle text-center">
+              CHAMA NO WHATS, QUE A GENTE<br />
+              RESPONDE TAMBÉM :)
+            </h2>
+            <div class="row pt-5 mt-5">
+              <div class="col mt-3">
+                <div class="video-container text-center">
+                  <a href="">
+                    <img
+                      src="assets/img/whatsapp.png"
+                      class="mx-auto"
+                      alt=""
+                      style="width: 20%"
+                    />
+                  </a>
                 </div>
-
+              </div>
             </div>
+          </div>
         </div>
 
         <div class="blank-space py-5 my-5"></div>
         <div class="blank-space py-3 my-3"></div>
-
       </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <a class="py-5 my-5 mx-auto footer-logo" href="#">
-                        <img src="assets/img/logo.png" alt="" style="max-width: 600px;">
-                    </a>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <a href="#" class="footer-link">goldengum.com.br</a>
-                </div>
-            </div>
-
-            <div class="row py-5 px-5 justify-content-center mx-auto" style="max-width: 550px;">
-                <div class="col text-center mx-auto">
-                    <a href="#" class="footer-link">
-                        <img src="assets/img/instagram.png" class="img-fluid" style="max-width: 75%;" alt="">
-                    </a>
-                </div>
-                <div class="col text-center mx-auto">
-                    <a href="#" class="footer-link">
-                        <img src="assets/img/tiktok.png" class="img-fluid" style="max-width: 75%;" alt="">
-                    </a>
-                </div>
-                <div class="col text-center mx-auto">
-                    <a href="#" class="footer-link">
-                        <img src="assets/img/pinterest.png" class="img-fluid" style="max-width: 75%;" alt="">
-                    </a>
-                </div>
-                <div class="col text-center mx-auto">
-                    <a href="#" class="footer-link">
-                        <img src="assets/img/facebook.png" class="img-fluid" style="max-width: 75%;" alt="">
-                    </a>
-                </div>
-
-                <div class="blank-space py-5 my-2"></div>
-
-            </div>
-
-            <div class="row">
-                <div class="col">
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row pb-2">
-                <div class="col text-center py-5">
-                    <span class="copyright">
-                        ©golden gum 2021. Todos Direitos Reservados. 
-                    </span>
-                </div>
-            </div>
-
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <a class="py-5 my-5 mx-auto footer-logo" href="#">
+              <img src="assets/img/logo.png" alt="" style="max-width: 600px" />
+            </a>
+          </div>
         </div>
 
+        <div class="row">
+          <div class="col d-flex justify-content-center">
+            <a href="#" class="footer-link">goldengum.com.br</a>
+          </div>
+        </div>
+
+        <div
+          class="row py-5 px-5 justify-content-center mx-auto"
+          style="max-width: 550px"
+        >
+          <div class="col text-center mx-auto">
+            <a href="#" class="footer-link">
+              <img
+                src="assets/img/instagram.png"
+                class="img-fluid"
+                style="max-width: 75%"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col text-center mx-auto">
+            <a href="#" class="footer-link">
+              <img
+                src="assets/img/tiktok.png"
+                class="img-fluid"
+                style="max-width: 75%"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col text-center mx-auto">
+            <a href="#" class="footer-link">
+              <img
+                src="assets/img/pinterest.png"
+                class="img-fluid"
+                style="max-width: 75%"
+                alt=""
+              />
+            </a>
+          </div>
+          <div class="col text-center mx-auto">
+            <a href="#" class="footer-link">
+              <img
+                src="assets/img/facebook.png"
+                class="img-fluid"
+                style="max-width: 75%"
+                alt=""
+              />
+            </a>
+          </div>
+
+          <div class="blank-space py-5 my-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <hr />
+          </div>
+        </div>
+
+        <div class="row pb-2">
+          <div class="col text-center py-5">
+            <span class="copyright">
+              ©golden gum 2021. Todos Direitos Reservados.
+            </span>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <!-- JQuery 3.6.0 -->
@@ -1070,5 +1170,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+    <!-- JavaScript -->
+    <script src="assets/js/index.js"></script>
+
   </body>
 </html>
