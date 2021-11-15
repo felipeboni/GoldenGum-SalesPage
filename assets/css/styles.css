@@ -2,6 +2,16 @@
     * {
         font-size: large !important;
     }
+
+    body.show {
+        overflow: hidden !important;
+    }
+
+    .navbar-collapse {
+        width: 100% !important;
+        position: fixed !important;
+        overflow: hidden !important;
+    }
   }
 /* 
 section {
