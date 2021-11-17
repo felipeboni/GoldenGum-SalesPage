@@ -12,12 +12,7 @@
         position: fixed !important;
         overflow: hidden !important;
     }
-  }
-/* 
-section {
-    transform: scale(0.7);
-    transform-origin: top;
-} */
+}
 
 @font-face {
     font-family: 'League Spartan';
@@ -49,11 +44,11 @@ hr {
 /* Start::Section headline */
 
 .navbar-brand {
-    width: 200px;
+    width: 150px;
 }
 
 .navbar-button img {
-    width: 34px;
+    width: 24px;
     filter: brightness(999);
 }
 
@@ -140,11 +135,9 @@ body.show::before {
 }
 
 #s-headline .container-headline {
-    min-height: 585px;
+    min-height: 645px;
     margin-bottom: 100px;
 }
-
-
 
 #s-headline .container-headline > .row {
     background-color: rgba(0, 0, 0, 0.67);
@@ -152,9 +145,9 @@ body.show::before {
 
 #s-headline h1.headline {
     font-family: 'Bree Serif', serif;
-    max-width: 35ch;
     text-align: center;
     padding: 70px 0;
+    font-size: 20pt;
 }
 
 /* End::Section headline */
@@ -163,12 +156,12 @@ body.show::before {
 #s-presentation {
     z-index: 2;
     position: relative;
-    margin-top: -469px;
+    top: -440px;
     padding-bottom: 100px;
 }
 
 #s-presentation h1.headline {
-    font-size: 60pt;
+    font-size: 40pt;
     line-height: 1.3em;
     max-width: 8ch;
     text-align: center;
@@ -178,14 +171,18 @@ body.show::before {
 
 #s-presentation .headline-block {
     background-color: #f29f8d;
-    max-width: 730px;
+    max-width: 530px;
     position: relative;
 }
 
 #s-presentation .sticker {
     position: absolute;
-    right: -282px;
+    right: -300px;
     bottom: -90px;
+}
+
+#s-presentation .sticker img {
+    width: 80%;
 }
 
 
@@ -193,14 +190,14 @@ body.show::before {
 /* Start::Section arguments */
 
 #s-arguments h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     line-height: 1.3em;
 }
 
 #s-arguments h2.subtitle {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Montserrat';
     max-width: 39ch;
     font-weight: 400;
@@ -212,7 +209,7 @@ body.show::before {
 }
 
 #s-arguments ul.argument-list li {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 2.4em;
@@ -223,10 +220,10 @@ body.show::before {
     color: #f27052;
     font-weight: bolder;
     display: inline-block;
-    width: .8em;
+    width: 0.8em;
     margin-left: 0em;
-    font-size: 6rem;
-    transform: translateY(11px);
+    font-size: 4rem;
+    transform: translateY(5px);
 }
 
 /* fCarousel Styles */
@@ -234,6 +231,8 @@ body.show::before {
 #fCarousel {
     padding-right: 7rem !important;
     padding-left: 7rem !important;
+    transform: scale(0.7);
+    transform-origin: top;
 }
 
 #fCarousel .carousel-inner {
@@ -276,7 +275,7 @@ body.show::before {
 }
 
 #s-video h1.headline {
-    font-size: 60pt;
+    font-size: 40pt;
     line-height: 1.4em;
     max-width: 10ch;
     padding: 70px 0;
@@ -284,7 +283,7 @@ body.show::before {
 }
 
 #s-video h2.subtitle {
-    font-size: 35pt;
+    font-size: 22pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     position: relative;
@@ -296,12 +295,12 @@ body.show::before {
     width: 100vw;
     height: 3px;
     background: #000;
-    top: 30px;
-    left: 400px;
+    top: 19px;
+    left: 249px;
 }
 
 #s-video .video-container {
-    max-width: 90%;
+    max-width: 70%;
     background-color: #fff0d2;
 }
 
@@ -309,10 +308,10 @@ body.show::before {
     content: '';
     position: absolute;
     width: 100vw;
-    height: 450px;
+    height: 350px;
     background-color: #f7bcac;
     left: 0;
-    margin-top: 270px;
+    margin-top: 220px;
     z-index: -1;
 }
 
@@ -322,10 +321,10 @@ body.show::before {
     background-color: #f27052;
     border: solid 10px #f29f8d;
     border-radius: 0;
-    font-size: 50pt;
+    font-size: 30pt;
     color: #fff;
     line-height: 1.5em;
-    width: 100%;
+    width: 70%;
 }
 
 /* End::Section video */
@@ -338,7 +337,7 @@ body.show::before {
 }
 
 #s-results h1.headline {
-    font-size: 60pt;
+    font-size: 40pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -346,7 +345,7 @@ body.show::before {
 }
 
 #s-results h2.subtitle {
-    font-size: 35pt;
+    font-size: 22pt;
     font-family: 'Bree serif';
     position: relative;
     letter-spacing: 4px;
@@ -361,10 +360,10 @@ body.show::before {
     background-color: #f27052;
     border: solid 10px #f29f8d;
     border-radius: 0;
-    font-size: 50pt;
+    font-size: 30pt;
     color: #fff;
     line-height: 1.5em;
-    width: 100%;
+    width: 70%;
 }
 
 #s-howToUse > .container {
@@ -373,7 +372,7 @@ body.show::before {
 }
 
 #s-howToUse h1.headline {
-    font-size: 60pt;
+    font-size: 40pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -381,7 +380,7 @@ body.show::before {
 }
 
 #s-howToUse h2.subtitle {
-    font-size: 35pt;
+    font-size: 22pt;
     font-family: 'Bree serif';
     position: relative;
     letter-spacing: 4px;
@@ -390,7 +389,7 @@ body.show::before {
 
 #s-howToUse .photo-htu {
     width: 100%;
-    height: 1100px;
+    height: 800px;
     position: relative;
 }
 
@@ -408,9 +407,10 @@ body.show::before {
 #s-howToUse .photo-htu::after {
     content: url('../img/nkXCVKJa_71056.png');
     position: absolute;
-    left: 37px;
-    bottom: -120px;
+    left: 120px;
+    bottom: -140px;
     z-index: 0;
+    transform: scale(0.7);
 }
 
 #s-howToUse .htu-list {
@@ -419,17 +419,17 @@ body.show::before {
 
 #s-howToUse .list__number {
     font-family: 'League Spartan';
-    font-size: 124pt;
+    font-size: 104pt;
 }
 
 
 #s-howToUse .list__item {
-    margin-top: -110px;
+    margin-top: -100px;
 }
 
 #s-howToUse .list__text {
     font-family: 'Bree Serif';
-    font-size: 35pt;
+    font-size: 22pt;
     color: #fff;
 }
 
@@ -455,7 +455,7 @@ body.show::before {
 }
 
 #s-quickResults h1.headline {
-    font-size: 60pt;
+    font-size: 40pt;
     line-height: 1.4em;
     max-width: 10ch;
     padding: 70px 0;
@@ -463,7 +463,7 @@ body.show::before {
 }
 
 #s-quickResults h2.subtitle {
-    font-size: 35pt;
+    font-size: 22pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     position: relative;
@@ -475,12 +475,12 @@ body.show::before {
     width: 100vw;
     height: 3px;
     background: #000;
-    top: 30px;
-    left: 670px;
+    top: 20px;
+    left: 424px;
 }
 
 #s-quickResults .video-container {
-    max-width: 90%;
+    max-width: 70%;
     background-color: #fff0d2;
     position: relative;
 }
@@ -492,7 +492,7 @@ body.show::before {
     height: 100%;
     background-color: #f7bcac;
     left: -50%;
-    top: -50%;
+    top: -20%;
     z-index: -1;
 }
 
@@ -500,7 +500,7 @@ body.show::before {
 /* Start::Section training */
 
 #s-training h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     line-height: 1.3em;
@@ -508,7 +508,7 @@ body.show::before {
 }
 
 #s-training h2.subtitle {
-    font-size: 30pt;
+    font-size: 22pt;
     font-family: 'Montserrat';
     max-width: 39ch;
     font-weight: 400;
@@ -520,7 +520,7 @@ body.show::before {
 }
 
 #s-training ul.argument-list li {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 2.4em;
@@ -531,10 +531,10 @@ body.show::before {
     color: #f27052;
     font-weight: bolder;
     display: inline-block;
-    width: .8em;
+    width: 0.8em;
     margin-left: 0em;
-    font-size: 6rem;
-    transform: translateY(11px);
+    font-size: 4rem;
+    transform: translateY(5px);
 }
 
 #s-training .custom-button {
@@ -542,10 +542,10 @@ body.show::before {
     background-color: #f27052;
     border: solid 10px #f29f8d;
     border-radius: 0;
-    font-size: 50pt;
+    font-size: 30pt;
     color: #fff;
     line-height: 1.5em;
-    width: 100%;
+    width: 70%;
 }
 
 /* End::Section training */
@@ -561,7 +561,7 @@ body.show::before {
 }
 
 #s-explanation h1.headline {
-    font-size: 60pt;
+    font-size: 40pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -570,7 +570,7 @@ body.show::before {
 }
 
 #s-explanation h2.subtitle {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     color: #f27052;
@@ -578,7 +578,7 @@ body.show::before {
 }
 
 #s-explanation span.text {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Montserrat';
     line-height: 1.3em;
     color: #f27052;
@@ -617,7 +617,7 @@ body.show::before {
 /* Start::Section politics */
 
 #s-politics h1.headline {
-    font-size: 60pt;
+    font-size: 40pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -625,7 +625,7 @@ body.show::before {
 }
 
 #s-politics h2.subtitle {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     letter-spacing: 3px;
@@ -638,7 +638,7 @@ body.show::before {
 #s-politics .img-box::after {
     content: url('../img/nkXCVKJa_71056.png');
     position: absolute;
-    right: 18%;
+    right: 30%;
     bottom: 25%;
     z-index: 0;
 }
@@ -663,7 +663,7 @@ body.show::before {
 }
 
 #s-politicsList h1.headline {
-    font-size: 58pt;
+    font-size: 38pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -671,7 +671,7 @@ body.show::before {
 }
 
 #s-politicsList h2.subtitle {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     letter-spacing: 3px;
@@ -683,7 +683,7 @@ body.show::before {
 }
 
 #s-politicsList ul.argument-list li {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Montserrat';
     font-weight: 400;
     color: #f27052;
@@ -694,9 +694,9 @@ body.show::before {
     color: #f27052;
     font-weight: bolder;
     display: inline-block;
-    width: .8em;
+    width: 0.8em;
     margin-left: -0.8em;
-    font-size: 6rem;
+    font-size: 4rem;
     transform: translate(-20px, 11px);
     line-height: 0;
 }
@@ -707,7 +707,7 @@ body.show::before {
 }
 
 #s-politicsList ul.argument-list-2 li {
-    font-size: 40pt;
+    font-size: 20pt;
     font-family: 'Bree Serif';
     font-weight: 400;
     color: #000;
@@ -732,16 +732,20 @@ body.show::before {
 /* End::Section politicsList */
 /* Start::Section buy */
 
+#s-buy .img-box {
+    transform: scale(0.7);
+}
+
 #s-buy h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: 'Bree serif';
     max-width: 39ch;
-    line-height: 1.3em;
+    line-height: 1.5em;
     color: #f27052;
 }
 
 #s-buy h2.subtitle {
-    font-size: 35pt;
+    font-size: 22pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 1.4em;
@@ -749,7 +753,7 @@ body.show::before {
 }
 
 #s-buy h3.title {
-    font-size: 25pt;
+    font-size: 22pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 1.4em;
@@ -784,10 +788,10 @@ body.show::before {
     background-color: #f27052;
     border: solid 10px #f29f8d;
     border-radius: 0;
-    font-size: 50pt;
+    font-size: 30pt;
     color: #fff;
     line-height: 1.5em;
-    width: 100%;
+    width: 70%;
 }
 
 hr {
@@ -799,6 +803,8 @@ hr {
 #sCarousel {
     padding-right: 7rem !important;
     padding-left: 7rem !important;
+    transform: scale(0.7);
+    transform-origin: top;
 }
 
 #sCarousel .carousel-inner {
@@ -840,7 +846,7 @@ hr {
 }
 
 #s-product h1.headline {
-    font-size: 65pt;
+    font-size: 45pt;
     line-height: 1.4em;
     max-width: 6ch;
     padding: 70px 0;
@@ -878,7 +884,7 @@ hr {
 }
 
 #s-goldenvibes h1.headline {
-    font-size: 76pt;
+    font-size: 55pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -888,7 +894,7 @@ hr {
 }
 
 #s-goldenvibes h2.subtitle {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     color: #fff;
@@ -898,13 +904,18 @@ hr {
 /* End::Section goldenvibes */
 /* Start::Section guides */
 
+#s-guides {
+    transform: scale(0.8);
+
+}
+
 #s-guides .row-bg {
     margin-top: -200px;
     background: #f18070;
 }
 
 #s-guides h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: 'Bree serif';
     max-width: 27ch;
     line-height: 1.3em;
@@ -912,7 +923,7 @@ hr {
 }
 
 #s-guides h2.subtitle {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     color: #fff;
@@ -922,8 +933,13 @@ hr {
 /* End::Section guides */
 /* Start::Section questions */
 
+#s-questions {
+    transform: scale(0.9);
+
+}
+
 #s-questions h1.headline {
-    font-size: 76pt;
+    font-size: 55pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -932,7 +948,7 @@ hr {
 }
 
 #s-questions h2.subtitle {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     letter-spacing: 3px;
@@ -940,7 +956,7 @@ hr {
 }
 
 #s-questions .question-item {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Montserrat';
     line-height: 1.3em;
     color: #f18070;
@@ -948,7 +964,7 @@ hr {
 }
 
 #s-questions .question-text {
-    font-size: 25pt;
+    font-size: 15pt;
     font-family: 'Montserrat';
     line-height: 1.8em;
     color: #000;
@@ -962,12 +978,16 @@ footer {
     background-color: #ffe9df;
 }
 
+footer > * {
+    transform: scale(0.7);
+}
+
 footer .footer-logo {
     margin: 10rem auto !important;
 }
 
 footer .footer-link {
-    font-size: 40pt;
+    font-size: 30pt;
     font-family: 'Montserrat';
     line-height: 1.3em;
     color: #f18070 !important;
@@ -975,7 +995,7 @@ footer .footer-link {
 }
 
 footer .copyright {
-    font-size: 25pt;
+    font-size: 15pt;
     font-family: 'Montserrat';
     line-height: 1.3em;
     color: #f18070 !important;
