@@ -45,6 +45,14 @@ hr {
 
 .navbar-brand {
     width: 150px;
+    transform: scale(1.3);
+    transform-origin: left;
+}
+
+.navbar-button {
+    transform: scale(1.3);
+    transform-origin: right;
+
 }
 
 .navbar-button img {
@@ -147,7 +155,7 @@ body.show::before {
     font-family: 'Bree Serif', serif;
     text-align: center;
     padding: 70px 0;
-    font-size: 20pt;
+    font-size: 22pt;
 }
 
 /* End::Section headline */
@@ -161,7 +169,7 @@ body.show::before {
 }
 
 #s-presentation h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     line-height: 1.3em;
     max-width: 8ch;
     text-align: center;
@@ -190,16 +198,16 @@ body.show::before {
 /* Start::Section arguments */
 
 #s-arguments h1.headline {
-    font-size: 30pt;
+    font-size: 22pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     line-height: 1.3em;
 }
 
 #s-arguments h2.subtitle {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
-    max-width: 39ch;
+    max-width: 40ch;
     font-weight: 400;
     line-height: 1.4em;
 }
@@ -209,7 +217,7 @@ body.show::before {
 }
 
 #s-arguments ul.argument-list li {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 2.4em;
@@ -231,7 +239,7 @@ body.show::before {
 #fCarousel {
     padding-right: 7rem !important;
     padding-left: 7rem !important;
-    transform: scale(0.7);
+    transform: scale(0.5);
     transform-origin: top;
 }
 
@@ -308,8 +316,8 @@ body.show::before {
     content: '';
     position: absolute;
     width: 100vw;
-    height: 350px;
-    background-color: #f7bcac;
+    height: 420px;
+    background-color: #ffbe9f;
     left: 0;
     margin-top: 220px;
     z-index: -1;
@@ -318,13 +326,13 @@ body.show::before {
 
 #s-video .custom-button {
     font-family: 'League Spartan';
-    background-color: #f27052;
-    border: solid 10px #f29f8d;
+    background-color: #fff;
+    border: solid 2px #000;
     border-radius: 0;
-    font-size: 30pt;
-    color: #fff;
+    font-size: 20pt;
+    color: #f27052;
     line-height: 1.5em;
-    width: 70%;
+    padding: 20px 90px;
 }
 
 /* End::Section video */
@@ -337,7 +345,7 @@ body.show::before {
 }
 
 #s-results h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -345,7 +353,7 @@ body.show::before {
 }
 
 #s-results h2.subtitle {
-    font-size: 22pt;
+    font-size: 18pt;
     font-family: 'Bree serif';
     position: relative;
     letter-spacing: 4px;
@@ -357,13 +365,13 @@ body.show::before {
 
 #s-howToUse .custom-button {
     font-family: 'League Spartan';
-    background-color: #f27052;
-    border: solid 10px #f29f8d;
+    background-color: #fff;
+    border: solid 2px #000;
     border-radius: 0;
-    font-size: 30pt;
-    color: #fff;
+    font-size: 20pt;
+    color: #f27052;
     line-height: 1.5em;
-    width: 70%;
+    padding: 20px 90px;
 }
 
 #s-howToUse > .container {
@@ -372,7 +380,7 @@ body.show::before {
 }
 
 #s-howToUse h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -389,7 +397,7 @@ body.show::before {
 
 #s-howToUse .photo-htu {
     width: 100%;
-    height: 800px;
+    height: 450px;
     position: relative;
 }
 
@@ -405,32 +413,36 @@ body.show::before {
 }
 
 #s-howToUse .photo-htu::after {
-    content: url('../img/nkXCVKJa_71056.png');
+    content: url(../img/nkXCVKJa_71056.png);
     position: absolute;
-    left: 120px;
-    bottom: -140px;
+    left: 238px;
+    bottom: -145px;
     z-index: 0;
-    transform: scale(0.7);
+    transform: scale(0.5);
 }
 
 #s-howToUse .htu-list {
     padding: 0 5rem !important;
 }
 
-#s-howToUse .list__number {
-    font-family: 'League Spartan';
-    font-size: 104pt;
+#s-howToUse .htu-list .row {
+    position: relative;
 }
 
-
-#s-howToUse .list__item {
-    margin-top: -100px;
+#s-howToUse .list__number {
+    font-family: 'League Spartan';
+    font-size: 50pt;
+    position: absolute;
+    z-index: 1;
+    top: -35px;
+    max-width: 96%;
+    color: #000;
 }
 
 #s-howToUse .list__text {
     font-family: 'Bree Serif';
-    font-size: 22pt;
     color: #fff;
+    font-size: 18pt;
 }
 
 #s-howToUse .list__item1 .list__item {
@@ -455,20 +467,19 @@ body.show::before {
 }
 
 #s-quickResults h1.headline {
-    font-size: 40pt;
-    line-height: 1.4em;
-    max-width: 10ch;
+    font-size: 30pt;
+    line-height: 1.7em;
+    /* max-width: 10ch; */
     padding: 70px 0;
     font-family: 'League Spartan';
 }
 
 #s-quickResults h2.subtitle {
-    font-size: 22pt;
+    font-size: 18pt;
     font-family: 'Bree serif';
-    max-width: 39ch;
     position: relative;
 }
-
+/* 
 #s-quickResults h2.subtitle::before {
     content: '';
     position: absolute;
@@ -477,10 +488,10 @@ body.show::before {
     background: #000;
     top: 20px;
     left: 424px;
-}
+} */
 
 #s-quickResults .video-container {
-    max-width: 70%;
+    max-width: 50%;
     background-color: #fff0d2;
     position: relative;
 }
@@ -488,10 +499,10 @@ body.show::before {
 #s-quickResults .video-container::before {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 400%;
     height: 100%;
-    background-color: #f7bcac;
-    left: -50%;
+    background-color: #ffbe9f;
+    left: -1980px;
     top: -20%;
     z-index: -1;
 }
@@ -500,7 +511,7 @@ body.show::before {
 /* Start::Section training */
 
 #s-training h1.headline {
-    font-size: 30pt;
+    font-size: 22pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     line-height: 1.3em;
@@ -508,7 +519,7 @@ body.show::before {
 }
 
 #s-training h2.subtitle {
-    font-size: 22pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
     max-width: 39ch;
     font-weight: 400;
@@ -520,7 +531,7 @@ body.show::before {
 }
 
 #s-training ul.argument-list li {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 2.4em;
@@ -539,13 +550,13 @@ body.show::before {
 
 #s-training .custom-button {
     font-family: 'League Spartan';
-    background-color: #f27052;
-    border: solid 10px #f29f8d;
+    background-color: #fff;
+    border: solid 2px #000;
     border-radius: 0;
-    font-size: 30pt;
-    color: #fff;
+    font-size: 20pt;
+    color: #f27052;
     line-height: 1.5em;
-    width: 70%;
+    padding: 20px 90px;
 }
 
 /* End::Section training */
@@ -561,7 +572,7 @@ body.show::before {
 }
 
 #s-explanation h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -570,7 +581,7 @@ body.show::before {
 }
 
 #s-explanation h2.subtitle {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     color: #f27052;
@@ -599,7 +610,7 @@ body.show::before {
     width: 100vw;
     height: 3px;
     background: #000;
-    top: 60px;
+    top: 75px;
     left: -770px;
 }
 
@@ -609,15 +620,15 @@ body.show::before {
     width: 100vw;
     height: 3px;
     background: #000;
-    bottom: 30px;
-    left: 770px;
+    bottom: 70px;
+    left: 840px;
 }
 
 /* End::Section meaning */
 /* Start::Section politics */
 
 #s-politics h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -625,10 +636,10 @@ body.show::before {
 }
 
 #s-politics h2.subtitle {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
 }
 
 #s-politics .row {
@@ -638,11 +649,12 @@ body.show::before {
 #s-politics .img-box::after {
     content: url('../img/nkXCVKJa_71056.png');
     position: absolute;
-    right: 30%;
-    bottom: 25%;
+    right: 17%;
+    bottom: -128px;
     z-index: 0;
+    transform: scale(0.7);
 }
-
+/* 
 #s-politics .img-box::before {
     content: '';
     position: absolute;
@@ -652,22 +664,41 @@ body.show::before {
     left: 0;
     bottom: 0;
     z-index: -1;
+} */
+
+#s-politics .video-container {
+    max-width: 38%;
+    background-color: #fff0d2;
+    position: relative;
+}
+
+#s-politics .video-container::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 150%;
+    background-color: #ffa48f;
+    left: -20%;
+    bottom: -60%;
+    z-index: -1;
 }
 
 /* End::Section politics */
 /* Start::Section politicsList */
 
+
 #s-politicsList {
-    background: #f7bcac;
-    padding-bottom: 10rem;
+    /* background: #f7bcac; */
+    padding-bottom: 4rem;
 }
 
 #s-politicsList h1.headline {
-    font-size: 38pt;
+    font-size: 30pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
     text-align: center;
+    color: #f27052;
 }
 
 #s-politicsList h2.subtitle {
@@ -683,7 +714,7 @@ body.show::before {
 }
 
 #s-politicsList ul.argument-list li {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
     font-weight: 400;
     color: #f27052;
@@ -707,7 +738,7 @@ body.show::before {
 }
 
 #s-politicsList ul.argument-list-2 li {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Bree Serif';
     font-weight: 400;
     color: #000;
@@ -718,19 +749,23 @@ body.show::before {
     color: #f27052;
     font-weight: bolder;
     display: inline-block;
-    width: .8em;
+    width: 0.8em;
     margin-left: -0.8em;
-    font-size: 6rem;
+    font-size: 4rem;
     transform: translate(-20px, 11px);
     line-height: 0;
 }
 
 #s-politicsList .list-box {
-    padding: 0 200px !important;
+    padding: 0 355px !important;
 }
 
 /* End::Section politicsList */
 /* Start::Section buy */
+
+#s-buy {
+    background: #ffa48f;
+}
 
 #s-buy .img-box {
     transform: scale(0.7);
@@ -741,15 +776,23 @@ body.show::before {
     font-family: 'Bree serif';
     max-width: 39ch;
     line-height: 1.5em;
-    color: #f27052;
+    color: #fff;
+}
+
+#s-buy h1.headline .sub-headline {
+    font-size: 30pt;
+    font-family: 'League Spartan';
+    max-width: 39ch;
+    line-height: 1.5em;
+    color: #fff;
 }
 
 #s-buy h2.subtitle {
-    font-size: 22pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 1.4em;
-    color: #f27052;
+    color: #000;
 }
 
 #s-buy h3.title {
@@ -766,7 +809,7 @@ body.show::before {
 }
 
 #s-buy ul.argument-list li {
-    font-size: 30pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
     font-weight: 400;
     line-height: 2.4em;
@@ -785,6 +828,76 @@ body.show::before {
 
 #s-buy .custom-button {
     font-family: 'League Spartan';
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 0;
+    font-size: 20pt;
+    color: #f27052;
+    line-height: 1.5em;
+    padding: 20px 90px;
+}
+
+hr {
+    height: 3px;
+}
+
+
+/* End::Section buy */
+/* Start::Section payments */
+
+#s-payments .img-box {
+    transform: scale(0.7);
+}
+
+#s-payments h1.headline {
+    font-size: 30pt;
+    font-family: 'Bree serif';
+    max-width: 39ch;
+    line-height: 1.5em;
+    color: #f27052;
+}
+
+#s-payments h2.subtitle {
+    font-size: 22pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #f27052;
+}
+
+#s-payments h3.title {
+    font-size: 18pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 1.4em;
+    color: #000;
+    letter-spacing: 4px;
+}
+
+#s-payments ul.argument-list {
+    list-style: none;
+}
+
+#s-payments ul.argument-list li {
+    font-size: 18pt;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    line-height: 2.4em;
+}
+
+#s-payments ul.argument-list li::before {
+    content: "\25A0";
+    color: #f27052;
+    font-weight: bolder;
+    display: inline-block;
+    width: .8em;
+    margin-left: 0em;
+    font-size: 6rem;
+    transform: translateY(11px);
+}
+
+#s-payments .custom-button {
+    font-family: 'League Spartan';
     background-color: #f27052;
     border: solid 10px #f29f8d;
     border-radius: 0;
@@ -793,6 +906,7 @@ body.show::before {
     line-height: 1.5em;
     width: 70%;
 }
+
 
 hr {
     height: 3px;
@@ -803,7 +917,7 @@ hr {
 #sCarousel {
     padding-right: 7rem !important;
     padding-left: 7rem !important;
-    transform: scale(0.7);
+    transform: scale(0.5);
     transform-origin: top;
 }
 
@@ -840,15 +954,23 @@ hr {
 /* End::Section buy */
 /* Start::Section product */
 
+#s-product  {
+    margin-top: -300px;
+}
+
+#s-product img {
+    max-width: 40%;
+}
+
 #s-product > .container {
     padding-right: 6rem !important;
     padding-left: 6rem !important;
 }
 
 #s-product h1.headline {
-    font-size: 45pt;
+    font-size: 30pt;
     line-height: 1.4em;
-    max-width: 6ch;
+    max-width: 9ch;
     padding: 70px 0;
     font-family: 'League Spartan';
     color: #f18070;
@@ -864,10 +986,10 @@ hr {
     content: '';
     position: absolute;
     width: 100%;
-    height: 132%;
+    height: 150%;
     background-color: #fff0d2;
     left: -50%;
-    bottom: -40%;
+    bottom: -36%;
     z-index: -1;
 }
 
@@ -884,17 +1006,16 @@ hr {
 }
 
 #s-goldenvibes h1.headline {
-    font-size: 55pt;
+    font-size: 30pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
     text-align: center;
     color: #fff;
-    max-width: 10ch;
 }
 
 #s-goldenvibes h2.subtitle {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     color: #fff;
@@ -910,14 +1031,15 @@ hr {
 }
 
 #s-guides .row-bg {
-    margin-top: -200px;
+    margin-top: -180px;
     background: #f18070;
+    max-width: 900px;
 }
 
 #s-guides h1.headline {
-    font-size: 30pt;
+    font-size: 20pt;
     font-family: 'Bree serif';
-    max-width: 27ch;
+    max-width: 34ch;
     line-height: 1.3em;
     color: #fff;
 }
@@ -934,12 +1056,11 @@ hr {
 /* Start::Section questions */
 
 #s-questions {
-    transform: scale(0.9);
-
+    /* margin-top: -100px; */
 }
 
 #s-questions h1.headline {
-    font-size: 55pt;
+    font-size: 30pt;
     line-height: 1.4em;
     padding: 70px 0;
     font-family: 'League Spartan';
@@ -948,7 +1069,7 @@ hr {
 }
 
 #s-questions h2.subtitle {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Bree serif';
     line-height: 1.3em;
     letter-spacing: 3px;
@@ -956,15 +1077,16 @@ hr {
 }
 
 #s-questions .question-item {
-    font-size: 20pt;
+    font-size: 18pt;
     font-family: 'Montserrat';
     line-height: 1.3em;
     color: #f18070;
     text-decoration: none;
+    padding-left: 0 !important;
 }
 
 #s-questions .question-text {
-    font-size: 15pt;
+    font-size: 12pt;
     font-family: 'Montserrat';
     line-height: 1.8em;
     color: #000;
