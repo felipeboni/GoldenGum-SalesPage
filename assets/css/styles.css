@@ -41,6 +41,15 @@ hr {
     border-radius: 999px;
 }
 
+button.custom-button:hover {
+    background-color: #f27052 !important;
+    color: #fff !important;
+}
+
+.light-bold {
+    font-weight: 500;
+}
+
 /* Start::Section headline */
 
 .navbar-brand {
@@ -175,6 +184,10 @@ body.show::before {
     text-align: center;
     padding: 70px 0;
     font-family: 'League Spartan';
+    padding-top: 13rem;
+    padding-right: 0px;
+    padding-bottom: 11rem;
+    padding-left: 0px;
 }
 
 #s-presentation .headline-block {
@@ -283,7 +296,7 @@ body.show::before {
 }
 
 #s-video h1.headline {
-    font-size: 40pt;
+    font-size: 30pt;
     line-height: 1.4em;
     max-width: 10ch;
     padding: 70px 0;
@@ -291,7 +304,7 @@ body.show::before {
 }
 
 #s-video h2.subtitle {
-    font-size: 22pt;
+    font-size: 18pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     position: relative;
@@ -303,8 +316,8 @@ body.show::before {
     width: 100vw;
     height: 3px;
     background: #000;
-    top: 19px;
-    left: 249px;
+    top: 17px;
+    left: 203px;
 }
 
 #s-video .video-container {
@@ -333,6 +346,10 @@ body.show::before {
     color: #f27052;
     line-height: 1.5em;
     padding: 20px 90px;
+}
+
+.ps-10 {
+    padding-left: 10rem !important;
 }
 
 /* End::Section video */
@@ -647,7 +664,7 @@ body.show::before {
 }
 
 #s-politics .img-box::after {
-    content: url('../img/nkXCVKJa_71056.png');
+    content: url('../img/cool\ stuff.png');
     position: absolute;
     right: 17%;
     bottom: -128px;
@@ -772,7 +789,7 @@ body.show::before {
 }
 
 #s-buy h1.headline {
-    font-size: 30pt;
+    font-size: 22pt;
     font-family: 'Bree serif';
     max-width: 39ch;
     line-height: 1.5em;
@@ -793,6 +810,11 @@ body.show::before {
     font-weight: 400;
     line-height: 1.4em;
     color: #000;
+}
+
+#s-buy .smaller-hl {
+    font-size: 18pt;
+    letter-spacing: 2px;
 }
 
 #s-buy h3.title {
@@ -917,7 +939,7 @@ hr {
 #sCarousel {
     padding-right: 7rem !important;
     padding-left: 7rem !important;
-    transform: scale(0.5);
+    transform: scale(0.55);
     transform-origin: top;
 }
 
@@ -955,7 +977,7 @@ hr {
 /* Start::Section product */
 
 #s-product  {
-    margin-top: -300px;
+    margin-top: -100px;
 }
 
 #s-product img {
