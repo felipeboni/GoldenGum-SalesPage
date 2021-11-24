@@ -536,6 +536,12 @@ hr {
     border-radius: 999px;
 }
 
+a.custom-button {
+    -webkit-appearance: button;
+   -moz-appearance: button;
+        appearance: button;
+}
+
 a.custom-button:hover {
     background-color: #f27052 !important;
     color: #fff !important;
@@ -833,14 +839,14 @@ body.show::before {
 
 
 #s-video .custom-button {
-    font-family: 'League Spartan';
-    background-color: #fff;
-    border: solid 2px #000;
-    border-radius: 0;
-    font-size: 20pt;
-    color: #f27052;
-    line-height: 1.5em;
-    padding: 20px 90px;
+    font-family: 'League Spartan' !important;
+    background-color: #fff !important;
+    border: solid 2px #000 !important;
+    border-radius: 0 !important;
+    font-size: 20pt !important;
+    color: #f27052 !important;
+    line-height: 1.5em !important;
+    padding: 20px 90px !important;
 }
 
 .ps-10 {
@@ -876,14 +882,14 @@ body.show::before {
 /* Start::Section howToUse */
 
 #s-howToUse .custom-button {
-    font-family: 'League Spartan';
-    background-color: #fff;
-    border: solid 2px #000;
-    border-radius: 0;
-    font-size: 20pt;
-    color: #f27052;
-    line-height: 1.5em;
-    padding: 20px 90px;
+    font-family: 'League Spartan' !important;
+    background-color: #fff !important;
+    border: solid 2px #000 !important;
+    border-radius: 0 !important;
+    font-size: 20pt !important;
+    color: #f27052 !important;
+    line-height: 1.5em !important;
+    padding: 20px 90px !important;
 }
 
 #s-howToUse > .container {
@@ -1061,14 +1067,14 @@ body.show::before {
 }
 
 #s-training .custom-button {
-    font-family: 'League Spartan';
-    background-color: #fff;
-    border: solid 2px #000;
-    border-radius: 0;
-    font-size: 20pt;
-    color: #f27052;
-    line-height: 1.5em;
-    padding: 20px 90px;
+    font-family: 'League Spartan' !important;
+    background-color: #fff !important;
+    border: solid 2px #000 !important;
+    border-radius: 0 !important;
+    font-size: 20pt !important;
+    color: #f27052 !important;
+    line-height: 1.5em !important;
+    padding: 20px 90px !important;
 }
 
 /* End::Section training */
@@ -1344,14 +1350,14 @@ body.show::before {
 }
 
 #s-buy .custom-button {
-    font-family: 'League Spartan';
-    background-color: #fff;
-    border: solid 2px #000;
-    border-radius: 0;
-    font-size: 20pt;
-    color: #f27052;
-    line-height: 1.5em;
-    padding: 20px 90px;
+    font-family: 'League Spartan' !important;
+    background-color: #fff !important;
+    border: solid 2px #000 !important;
+    border-radius: 0 !important;
+    font-size: 20pt !important;
+    color: #f27052 !important;
+    line-height: 1.5em !important;
+    padding: 20px 90px !important;
 }
 
 hr {
@@ -1414,14 +1420,14 @@ hr {
 }
 
 #s-payments .custom-button {
-    font-family: 'League Spartan';
-    background-color: #f27052;
-    border: solid 10px #f29f8d;
-    border-radius: 0;
-    font-size: 30pt;
-    color: #fff;
-    line-height: 1.5em;
-    width: 70%;
+    font-family: 'League Spartan' !important;
+    background-color: #f27052 !important;
+    border: solid 10px #f29f8d !important;
+    border-radius: 0 !important;
+    font-size: 30pt !important;
+    color: #fff !important;
+    line-height: 1.5em !important;
+    width: 70% !important;
 }
 
 
