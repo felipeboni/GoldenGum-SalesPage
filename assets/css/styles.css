@@ -538,8 +538,12 @@ hr {
 
 a.custom-button {
     -webkit-appearance: button;
-   -moz-appearance: button;
-        appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    -webkit-border-radius: 0% !important;
+    -moz-border-radius: 0% !important;
+    border-radius: 0% !important;
+    -khtml-border-radius: 0% !important;
 }
 
 a.custom-button:hover {
