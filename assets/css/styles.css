@@ -536,7 +536,7 @@ hr {
     border-radius: 999px;
 }
 
-button.custom-button:hover {
+a.custom-button:hover {
     background-color: #f27052 !important;
     color: #fff !important;
 }

@@ -29,6 +29,33 @@
     <title>Golden Gum - Sales Page</title>
   </head>
   <body>
+    <div id="whatsapp-link-div">
+      <a class="whatsapp-link1" href="https://api.whatsapp.com/send?phone=5516982605803&text=o%20golden%20gum%20%C3%A9%20para%20voc%C3%AA%3F%20d%C3%A1%20o%20play%20aqui%20%3A)" target="_blank">
+          <img src="assets/img/whatsapp-brands.svg" alt="" srcset="" class="whatsapp-logo">
+      </a>
+  <div>
+  <style>
+      .whatsapp-link1 {
+          position: fixed;
+          width: 50px;
+          height: 50px;
+          bottom: 16px;
+          right: 14px;
+          background-color: #25d366;
+          color: #fff;
+          border-radius: 50px;
+          text-align: center;
+          font-size: 30px;
+          box-shadow: 1px 1px 2px #888;
+          z-index: 1000;
+      }
+      .whatsapp-logo {
+          width: 55%;
+          margin-top: -4px;
+          margin-right: -2px;
+      }
+  </style>
+
     <section id="s-headline" style="z-index: 1">
       <nav class="navbar px-5">
         <div class="container-fluid">
@@ -378,16 +405,17 @@
         </div>
         <div class="row py-5 mt-5">
           <div class="col text-center">
-            <div class="video-container mx-auto mb-1">
-              <img
+            <div class="video-container mx-auto">
+              <!-- <img
                 src="assets/img/video-placeholder.png"
                 alt=""
                 class="w-100"
-              />
+              /> -->
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/N5c9xyJ0vA8?controls=0&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width: 100%;height: 444px;margin-bottom: -6px;"></iframe>
             </div>
-            <button type="button" class="btn custom-button mx-auto mt-5">
+            <a type="button" class="btn custom-button mx-auto mt-5" target="_blank" href="https://goldengum.pay.yampi.com.br/r/3YLKKDJ6EK">
               eu quero <3
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -530,9 +558,9 @@
         </div>
         <div class="row pb-5 mb-5 justify-content-center">
           <div class="col-8 mt-5  text-center">
-            <button type="button" class="btn custom-button mx-2 mb-5">
+            <a type="button" class="btn custom-button mx-2 mb-5" target="_blank" href="https://goldengum.pay.yampi.com.br/r/3YLKKDJ6EK">
               eu quero <3
-            </button>
+            </a>
           </div>
         </div>
       </div>
@@ -643,9 +671,9 @@
         </div>
         <div class="row justify-content-center pt-5 mt-5">
           <div class="col-8 mb-5 pb-5 text-center">
-            <button type="button" class="btn custom-button mx-2 mb-4">
+            <a type="button" class="btn custom-button mx-2 mb-4" target="_blank" href="https://goldengum.pay.yampi.com.br/r/3YLKKDJ6EK">
               eu quero <3
-            </button>
+            </a>
             <h2 class="subtitle text-center">R$ 99,00 em até 12x</h2>
           </div>
         </div>
@@ -743,7 +771,40 @@
         <div class="row">
           <div class="col">
             <div class="video-container mx-auto text-center bg-transparent pt-5">
-              <img src="assets/img/product.png" alt="" />
+              <!-- <img src="assets/img/product.png" alt="" /> -->
+              <div id="imgChange" style="margin: auto; width: 406px;height: 541px;background-repeat: no-repeat;background-position: center;background-size: contain;transform: translateX(4rem);background-image: url('assets/img/caroussel/after&before/1.jpg');"></div>
+
+              <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel" style="max-width: 40%;">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="assets/img/caroussel/after&before/1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/3.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/4.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/5.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/6.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/7.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/8.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/img/caroussel/after&before/9.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -827,17 +888,13 @@
             aria-expanded="false"
             aria-controls="firstQuestion"
           >
-            não é igual chiclete?
+          tem que fazer todo o dia?
           </a>
           <hr />
           <div class="collapse my-5" id="firstQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              não, mas ao menos 5 vezes na semana, até 3x ao dia… até você conseguir o
+              resultado desejado, depois disso você pode diminuir!
             </span>
           </div>
         </div>
@@ -851,17 +908,13 @@
             aria-expanded="false"
             aria-controls="secondQuestion"
           >
-            não machuca os dentes?
+          depois que eu parar de usar o golden gum, o resultado se mantem?
           </a>
           <hr />
           <div class="collapse my-5" id="secondQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              depois que você alcança o resultado desejado, você não precisa mais utilizar o
+              golden gum com a mesma intensidade.
             </span>
           </div>
         </div>
@@ -875,17 +928,15 @@
             aria-expanded="false"
             aria-controls="thirdQuestion"
           >
-            não prejudica a estrutura óssea?
+          deixa o rosto masculino?
           </a>
           <hr />
           <div class="collapse my-5" id="thirdQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              não, para deixar o rosto de uma mulher masculino você precisaria de uma
+              transformação completa na estrutura óssea dela. e você decide o quanto você
+              quer modificar seu rosto! quando você estiver satisfeita com o resultado, você
+              começa a utilizar o golden gum menos vezes.
             </span>
           </div>
         </div>
@@ -899,17 +950,19 @@
             aria-expanded="false"
             aria-controls="fourthQuestion"
           >
-            não é igual chiclete?
+          o golden gum não dá o mesmo resultado que mascar chiclete?
           </a>
           <hr />
           <div class="collapse my-5" id="fourthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              não! menina, deixa eu lhe fazer uma pergunta! você ganha coxa e bumbum
+              apenas caminhando na rua? não ganha! pois suas pernas estão adaptadas a
+              isso, certo? você precisa de um treino específico e com carga para isso para
+              aumentar qualquer músculo, certo? é por esse mesmo motivo que você não
+              consegue esculpir o seu rosto e diminuir a flacidez apenas mastigando chiclete
+              ou comida, você está adaptada a isso! o golden gum é um estímulo mais
+              intenso e feito especificamente para isso! quando você utilizar o produto, você
+              verá que é outra experiência.
             </span>
           </div>
         </div>
@@ -923,17 +976,13 @@
             aria-expanded="false"
             aria-controls="fifthQuestion"
           >
-            não é tóxico?
+          o golden gum machuca os dentes?
           </a>
           <hr />
           <div class="collapse my-5" id="fifthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              não. o golden gum não machuca os dentes pois ele é utilizado com os dentes
+              de trás, feitos especificamente para mastigação.
             </span>
           </div>
         </div>
@@ -947,17 +996,13 @@
             aria-expanded="false"
             aria-controls="sixthQuestion"
           >
-            não deixa o rosto masculino?
+          não prejudica a estrutura óssea?
           </a>
           <hr />
           <div class="collapse my-5" id="sixthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              não, o golden gum atua nos músculos da face, sem danos a estrutura óssea,
+              caso contrário nem poderíamos comercializar o nosso produto.
             </span>
           </div>
         </div>
@@ -971,17 +1016,12 @@
             aria-expanded="false"
             aria-controls="seventhQuestion"
           >
-            quantos minutos por dia?
+          não é toxico?
           </a>
           <hr />
           <div class="collapse my-5" id="seventhQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              não! material atóxico, hipoalergênico e ainda vegano!
             </span>
           </div>
         </div>
@@ -995,21 +1035,16 @@
             aria-expanded="false"
             aria-controls="eighthQuestion"
           >
-            tem que fazer todo dia?
+          o golden gum dura quanto tempo?
           </a>
           <hr />
           <div class="collapse my-5" id="eighthQuestion">
             <span class="question-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
-              cumque ipsa alias aperiam delectus minima perspiciatis, illum eius
-              inventore temporibus libero similique magni hic nostrum tempore
-              quos unde eligendi quidem officia nobis rem enim aliquid. Ullam
-              perspiciatis quia facilis exercitationem expedita laudantium sint
-              itaque non consequuntur, ratione earum doloribus dolorum.
+              o golden gum dura muitos e muitos anos! <3
             </span>
           </div>
         </div>
-
+<!-- 
         <div class="row mb-5 pb-5 mx-auto" style="max-width: 650px;">
           <a
             class="question-item my-4"
@@ -1056,7 +1091,7 @@
               itaque non consequuntur, ratione earum doloribus dolorum.
             </span>
           </div>
-        </div>
+        </div> -->
 
         <div class="row pb-5 mb-5">
           <div class="col mt-5 pt-5">
@@ -1067,7 +1102,7 @@
             <div class="row mt-5">
               <div class="col mt-5">
                 <div class="video-container text-center">
-                  <a href="">
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=5516982605803&text=o%20golden%20gum%20%C3%A9%20para%20voc%C3%AA%3F%20d%C3%A1%20o%20play%20aqui%20%3A">
                     <img
                       src="assets/img/whatsapp.png"
                       class="mx-auto"
