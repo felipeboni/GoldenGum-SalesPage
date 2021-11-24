@@ -3,6 +3,10 @@
         font-size: large !important;
     }
 
+    body {
+        -webkit-text-size-adjust: none;
+    }
+
     body.show {
         overflow: hidden !important;
     }
