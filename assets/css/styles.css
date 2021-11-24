@@ -511,6 +511,11 @@
     section .custom-button {
         padding: 20px 60px !important;
     }
+
+    .whatsapp-logo {
+        margin-top: 8px !important;
+        margin-right: -2px !important;
+    }
 }
 
 @font-face {
@@ -890,14 +895,14 @@ body.show::before {
 /* Start::Section howToUse */
 
 #s-howToUse .custom-button {
-    font-family: 'League Spartan' !important;
-    background-color: #fff !important;
-    border: solid 2px #000 !important;
-    border-radius: 0 !important;
-    font-size: 20pt !important;
-    color: #f27052 !important;
-    line-height: 1.5em !important;
-    padding: 20px 90px !important;
+    font-family: 'League Spartan';
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 0;
+    font-size: 20pt;
+    color: #f27052;
+    line-height: 1.5em;
+    padding: 20px 90px;
 }
 
 #s-howToUse > .container {
@@ -1075,14 +1080,14 @@ body.show::before {
 }
 
 #s-training .custom-button {
-    font-family: 'League Spartan' !important;
-    background-color: #fff !important;
-    border: solid 2px #000 !important;
-    border-radius: 0 !important;
-    font-size: 20pt !important;
-    color: #f27052 !important;
-    line-height: 1.5em !important;
-    padding: 20px 90px !important;
+    font-family: 'League Spartan';
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 0;
+    font-size: 20pt;
+    color: #f27052;
+    line-height: 1.5em;
+    padding: 20px 90px;
 }
 
 /* End::Section training */
@@ -1358,14 +1363,14 @@ body.show::before {
 }
 
 #s-buy .custom-button {
-    font-family: 'League Spartan' !important;
-    background-color: #fff !important;
-    border: solid 2px #000 !important;
-    border-radius: 0 !important;
-    font-size: 20pt !important;
-    color: #f27052 !important;
-    line-height: 1.5em !important;
-    padding: 20px 90px !important;
+    font-family: 'League Spartan';
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 0;
+    font-size: 20pt;
+    color: #f27052;
+    line-height: 1.5em;
+    padding: 20px 90px;
 }
 
 hr {
@@ -1428,14 +1433,14 @@ hr {
 }
 
 #s-payments .custom-button {
-    font-family: 'League Spartan' !important;
-    background-color: #f27052 !important;
-    border: solid 10px #f29f8d !important;
-    border-radius: 0 !important;
-    font-size: 30pt !important;
-    color: #fff !important;
-    line-height: 1.5em !important;
-    width: 70% !important;
+    font-family: 'League Spartan';
+    background-color: #fff;
+    border: solid 2px #000;
+    border-radius: 0;
+    font-size: 20pt;
+    color: #f27052;
+    line-height: 1.5em;
+    padding: 20px 90px;
 }
 
 
