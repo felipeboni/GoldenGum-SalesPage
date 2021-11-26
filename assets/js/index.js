@@ -13,22 +13,16 @@ $(function() {
 
     //prepare Your data array with img urls
     var dataArray=new Array();
-    dataArray[0]="assets/img/caroussel/after&before/1.jpg";
-    dataArray[1]="assets/img/caroussel/after&before/2.jpg";
-    dataArray[2]="assets/img/caroussel/after&before/3.jpg";
-    dataArray[3]="assets/img/caroussel/after&before/4.jpg";
-    dataArray[4]="assets/img/caroussel/after&before/5.jpg";
-    dataArray[5]="assets/img/caroussel/after&before/6.jpg";
-    dataArray[6]="assets/img/caroussel/after&before/7.jpg";
-    dataArray[7]="assets/img/caroussel/after&before/8.jpg";
-    dataArray[8]="assets/img/caroussel/after&before/9.jpg";
+    dataArray[0]="assets/img/caroussel/1/1-min.jpg";
+    dataArray[1]="assets/img/caroussel/1/2-min.jpg";
+    dataArray[2]="assets/img/caroussel/1/3-min.jpg";
 
     //start with id=0 after 5 seconds
     var thisId=0;
 
     window.setInterval(function(){
-        $('#imgChange').css('background-image', 'url(' + dataArray[thisId] + ')');
+        $('#changeImg').attr('src', dataArray[thisId]);
         thisId++; //increment data array id
-        if (thisId==8) thisId=0; //repeat from start
-    },5000); 
+        if (thisId==3) thisId=0; //repeat from start
+    },3000); 
 })
